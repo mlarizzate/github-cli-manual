@@ -1,0 +1,251 @@
+# GitHub CLI (`gh`) Complete Command Index
+
+An exhaustive alphabetical index of every GitHub CLI command and topic file in this manual.
+
+## Help Topics
+
+- [`gh help accessibility`](./topics/accessibility.md): Learn about GitHub CLI's accessibility experiences
+- [`gh help actions`](./topics/actions.md): Learn about working with GitHub Actions
+- [`gh help environment`](./topics/environment.md): Environment variables that can be used with gh
+- [`gh help exit-codes`](./topics/exit-codes.md): Exit codes used by gh
+- [`gh help formatting`](./topics/formatting.md): Formatting options for JSON data exported from gh
+- [`gh help mintty`](./topics/mintty.md): Information about using gh with MinTTY
+- [`gh help telemetry`](./topics/telemetry.md): Information about telemetry in gh
+
+## All Commands (Alphabetical)
+
+- [`gh agent-task`](./commands/agent-task/index.md) - Working with agent tasks in the GitHub CLI is in preview and
+- [`gh agent-task create`](./commands/agent-task/create.md) - Create an agent task (preview)
+- [`gh agent-task list`](./commands/agent-task/list.md) - List agent tasks (preview)
+- [`gh agent-task view`](./commands/agent-task/view.md) - View an agent task session.
+- [`gh alias`](./commands/alias/index.md) - Aliases can be used to make shortcuts for gh commands or to compose multiple commands.
+- [`gh alias delete`](./commands/alias/delete.md) - Delete set aliases
+- [`gh alias import`](./commands/alias/import.md) - Import aliases from the contents of a YAML file.
+- [`gh alias list`](./commands/alias/list.md) - This command prints out all of the aliases gh is configured to use.
+- [`gh alias set`](./commands/alias/set.md) - Define a word that will expand to a full gh command when invoked.
+- [`gh api`](./commands/api.md) - Makes an authenticated HTTP request to the GitHub API and prints the response.
+- [`gh attestation`](./commands/attestation/index.md) - Download and verify artifact attestations.
+- [`gh attestation download`](./commands/attestation/download.md) - ### NOTE: This feature is currently in public preview, and subject to change.
+- [`gh attestation trusted-root`](./commands/attestation/trusted-root.md) - Output contents for a trusted_root.jsonl file, likely for offline verification.
+- [`gh attestation verify`](./commands/attestation/verify.md) - Verify the integrity and provenance of an artifact using its associated
+- [`gh auth`](./commands/auth/index.md) - Authenticate gh and git with GitHub
+- [`gh auth login`](./commands/auth/login.md) - Authenticate with a GitHub host.
+- [`gh auth logout`](./commands/auth/logout.md) - Remove authentication for a GitHub account.
+- [`gh auth refresh`](./commands/auth/refresh.md) - Expand or fix the permission scopes for stored credentials for active account.
+- [`gh auth setup-git`](./commands/auth/setup-git.md) - This command configures `git` to use GitHub CLI as a credential helper.
+- [`gh auth status`](./commands/auth/status.md) - Display active account and authentication state on each known GitHub host.
+- [`gh auth switch`](./commands/auth/switch.md) - Switch the active account for a GitHub host.
+- [`gh auth token`](./commands/auth/token.md) - This command outputs the authentication token for an account on a given GitHub host.
+- [`gh browse`](./commands/browse.md) - Transition from the terminal to the web browser to view and interact with:
+- [`gh cache`](./commands/cache/index.md) - Work with GitHub Actions caches.
+- [`gh cache delete`](./commands/cache/delete.md) - Delete GitHub Actions caches.
+- [`gh cache list`](./commands/cache/list.md) - List GitHub Actions caches
+- [`gh codespace`](./commands/codespace/index.md) - Connect to and manage codespaces
+- [`gh codespace code`](./commands/codespace/code.md) - Open a codespace in Visual Studio Code
+- [`gh codespace cp`](./commands/codespace/cp.md) - The `cp` command copies files between the local and remote file systems.
+- [`gh codespace create`](./commands/codespace/create.md) - Create a codespace
+- [`gh codespace delete`](./commands/codespace/delete.md) - Delete codespaces based on selection criteria.
+- [`gh codespace edit`](./commands/codespace/edit.md) - Edit a codespace
+- [`gh codespace jupyter`](./commands/codespace/jupyter.md) - Open a codespace in JupyterLab
+- [`gh codespace list`](./commands/codespace/list.md) - List codespaces of the authenticated user.
+- [`gh codespace logs`](./commands/codespace/logs.md) - Access codespace logs
+- [`gh codespace ports`](./commands/codespace/ports.md) - List ports in a codespace
+- [`gh codespace ports forward`](./commands/codespace/ports-forward.md) - Forward ports from a codespace to your local machine.
+- [`gh codespace ports visibility`](./commands/codespace/ports-visibility.md) - Change the visibility of the forwarded port
+- [`gh codespace rebuild`](./commands/codespace/rebuild.md) - Rebuilding recreates your codespace.
+- [`gh codespace ssh`](./commands/codespace/ssh.md) - The `ssh` command is used to SSH into a codespace. In its simplest form, you can
+- [`gh codespace stop`](./commands/codespace/stop.md) - Stop a running codespace
+- [`gh codespace view`](./commands/codespace/view.md) - View details about a codespace
+- [`gh completion`](./commands/completion.md) - Generate shell completion scripts for GitHub CLI commands.
+- [`gh config`](./commands/config/index.md) - Display or change configuration settings for gh.
+- [`gh config clear-cache`](./commands/config/clear-cache.md) - Clear the cli cache
+- [`gh config get`](./commands/config/get.md) - Print the value of a given configuration key
+- [`gh config list`](./commands/config/list.md) - Print a list of configuration keys and values
+- [`gh config set`](./commands/config/set.md) - Update configuration with a value for the given key
+- [`gh copilot`](./commands/copilot.md) - Runs the GitHub Copilot CLI.
+- [`gh discussion`](./commands/discussion/index.md) - Working with discussions in the GitHub CLI is in preview and subject to change without notice.
+- [`gh discussion comment`](./commands/discussion/comment.md) - Manage comments or replies on a GitHub discussion.
+- [`gh discussion create`](./commands/discussion/create.md) - Create a new GitHub Discussion in a repository.
+- [`gh discussion edit`](./commands/discussion/edit.md) - Edit a GitHub Discussion.
+- [`gh discussion list`](./commands/discussion/list.md) - List discussions in a GitHub repository. By default, only open discussions
+- [`gh discussion view`](./commands/discussion/view.md) - Display the title, body, and other information about a discussion.
+- [`gh extension`](./commands/extension/index.md) - GitHub CLI extensions are repositories that provide additional gh commands.
+- [`gh extension browse`](./commands/extension/browse.md) - This command will take over your terminal and run a fully interactive
+- [`gh extension create`](./commands/extension/create.md) - Create a new extension
+- [`gh extension exec`](./commands/extension/exec.md) - 
+- [`gh extension install`](./commands/extension/install.md) - Install a GitHub CLI extension from a GitHub or local repository.
+- [`gh extension list`](./commands/extension/list.md) - List installed extension commands
+- [`gh extension remove`](./commands/extension/remove.md) - Remove an installed extension
+- [`gh extension search`](./commands/extension/search.md) - Search for gh extensions.
+- [`gh extension upgrade`](./commands/extension/upgrade.md) - Upgrade installed extensions
+- [`gh gist`](./commands/gist/index.md) - Work with GitHub gists.
+- [`gh gist clone`](./commands/gist/clone.md) - Clone a GitHub gist locally.
+- [`gh gist create`](./commands/gist/create.md) - Create a new GitHub gist with given contents.
+- [`gh gist delete`](./commands/gist/delete.md) - Delete a GitHub gist.
+- [`gh gist edit`](./commands/gist/edit.md) - Edit one of your gists
+- [`gh gist list`](./commands/gist/list.md) - List gists from your user account.
+- [`gh gist rename`](./commands/gist/rename.md) - Rename a file in the given gist ID / URL.
+- [`gh gist view`](./commands/gist/view.md) - View the given gist or select from recent gists.
+- [`gh gpg-key`](./commands/gpg-key/index.md) - Manage GPG keys registered with your GitHub account.
+- [`gh gpg-key add`](./commands/gpg-key/add.md) - Add a GPG key to your GitHub account
+- [`gh gpg-key delete`](./commands/gpg-key/delete.md) - Delete a GPG key from your GitHub account
+- [`gh gpg-key list`](./commands/gpg-key/list.md) - Lists GPG keys in your GitHub account
+- [`gh issue`](./commands/issue/index.md) - Work with GitHub issues.
+- [`gh issue artifact`](./commands/issue/artifact.md) - Working with issue artifacts in the GitHub CLI is in preview and subject to change without notice.
+- [`gh issue artifact create`](./commands/issue/artifact-create.md) - Create one artifact for each file or URL. A text file becomes a document
+- [`gh issue artifact delete`](./commands/issue/artifact-delete.md) - Delete artifacts from an issue. A deleted artifact can't be restored.
+- [`gh issue artifact download`](./commands/issue/artifact-download.md) - Download issue artifacts to files. Without artifact numbers, every artifact
+- [`gh issue artifact edit`](./commands/issue/artifact-edit.md) - Rename an issue artifact or replace its content. The type never changes, so a
+- [`gh issue artifact list`](./commands/issue/artifact-list.md) - List the artifacts on an issue, in number order. Every artifact is listed
+- [`gh issue artifact view`](./commands/issue/artifact-view.md) - Display an issue artifact's name, type, authors, content, and edit history. A
+- [`gh issue close`](./commands/issue/close.md) - Close issue
+- [`gh issue comment`](./commands/issue/comment.md) - Add a comment to a GitHub issue.
+- [`gh issue create`](./commands/issue/create.md) - Create an issue on GitHub.
+- [`gh issue delete`](./commands/issue/delete.md) - Delete issue
+- [`gh issue develop`](./commands/issue/develop.md) - Manage linked branches for an issue.
+- [`gh issue edit`](./commands/issue/edit.md) - Edit one or more issues within the same repository.
+- [`gh issue list`](./commands/issue/list.md) - List issues in a GitHub repository. By default, this only lists open issues.
+- [`gh issue lock`](./commands/issue/lock.md) - Lock issue conversation
+- [`gh issue pin`](./commands/issue/pin.md) - Pin an issue to a repository.
+- [`gh issue reopen`](./commands/issue/reopen.md) - Reopen issue
+- [`gh issue status`](./commands/issue/status.md) - Show status of relevant issues
+- [`gh issue transfer`](./commands/issue/transfer.md) - Transfer issue to another repository
+- [`gh issue unlock`](./commands/issue/unlock.md) - Unlock issue conversation
+- [`gh issue unpin`](./commands/issue/unpin.md) - Unpin an issue from a repository.
+- [`gh issue view`](./commands/issue/view.md) - Display the title, body, and other information about an issue.
+- [`gh label`](./commands/label/index.md) - Work with GitHub labels.
+- [`gh label clone`](./commands/label/clone.md) - Clones labels from a source repository to a destination repository on GitHub.
+- [`gh label create`](./commands/label/create.md) - Create a new label on GitHub, or update an existing one with `--force`.
+- [`gh label delete`](./commands/label/delete.md) - Delete a label from a repository
+- [`gh label edit`](./commands/label/edit.md) - Update a label on GitHub.
+- [`gh label list`](./commands/label/list.md) - Display labels in a GitHub repository.
+- [`gh licenses`](./commands/licenses.md) - View license information for third-party libraries used in this build of the GitHub CLI.
+- [`gh org`](./commands/org/index.md) - Work with GitHub organizations.
+- [`gh org list`](./commands/org/list.md) - List organizations for the authenticated user.
+- [`gh pr`](./commands/pr/index.md) - Work with GitHub pull requests.
+- [`gh pr checkout`](./commands/pr/checkout.md) - Check out a pull request in git
+- [`gh pr checks`](./commands/pr/checks.md) - Show CI status for a single pull request.
+- [`gh pr close`](./commands/pr/close.md) - Close a pull request
+- [`gh pr comment`](./commands/pr/comment.md) - Add a comment to a GitHub pull request.
+- [`gh pr create`](./commands/pr/create.md) - Create a pull request on GitHub.
+- [`gh pr diff`](./commands/pr/diff.md) - View changes in a pull request.
+- [`gh pr edit`](./commands/pr/edit.md) - Edit a pull request.
+- [`gh pr list`](./commands/pr/list.md) - List pull requests in a GitHub repository. By default, this only lists open PRs.
+- [`gh pr lock`](./commands/pr/lock.md) - Lock pull request conversation
+- [`gh pr merge`](./commands/pr/merge.md) - Merge a pull request on GitHub.
+- [`gh pr ready`](./commands/pr/ready.md) - Mark a pull request as ready for review.
+- [`gh pr reopen`](./commands/pr/reopen.md) - Reopen a pull request
+- [`gh pr revert`](./commands/pr/revert.md) - Revert a pull request
+- [`gh pr review`](./commands/pr/review.md) - Add a review to a pull request.
+- [`gh pr status`](./commands/pr/status.md) - Show status of relevant pull requests.
+- [`gh pr unlock`](./commands/pr/unlock.md) - Unlock pull request conversation
+- [`gh pr update-branch`](./commands/pr/update-branch.md) - Update a pull request branch with latest changes of the base branch.
+- [`gh pr view`](./commands/pr/view.md) - Display the title, body, and other information about a pull request.
+- [`gh preview`](./commands/preview/index.md) - Preview commands are for testing, demonstrative, and development purposes only.
+- [`gh preview prompter`](./commands/preview/prompter.md) - Execute a test program to preview the prompter.
+- [`gh project`](./commands/project/index.md) - Work with GitHub Projects.
+- [`gh project close`](./commands/project/close.md) - Close a project
+- [`gh project copy`](./commands/project/copy.md) - Copy a project
+- [`gh project create`](./commands/project/create.md) - Create a project
+- [`gh project delete`](./commands/project/delete.md) - Delete a project
+- [`gh project edit`](./commands/project/edit.md) - Edit a project
+- [`gh project field-create`](./commands/project/field-create.md) - Create a field in a project
+- [`gh project field-delete`](./commands/project/field-delete.md) - Delete a field in a project
+- [`gh project field-list`](./commands/project/field-list.md) - List the fields in a project
+- [`gh project item-add`](./commands/project/item-add.md) - Add a pull request or an issue to a project
+- [`gh project item-archive`](./commands/project/item-archive.md) - Archive an item in a project
+- [`gh project item-create`](./commands/project/item-create.md) - Create a draft issue item in a project
+- [`gh project item-delete`](./commands/project/item-delete.md) - Delete an item from a project by ID
+- [`gh project item-edit`](./commands/project/item-edit.md) - Edit a draft issue or a project item.
+- [`gh project item-list`](./commands/project/item-list.md) - List the items in a project.
+- [`gh project link`](./commands/project/link.md) - Link a project to a repository or a team
+- [`gh project list`](./commands/project/list.md) - List the projects for an owner
+- [`gh project mark-template`](./commands/project/mark-template.md) - Mark a project as a template
+- [`gh project unlink`](./commands/project/unlink.md) - Unlink a project from a repository or a team
+- [`gh project view`](./commands/project/view.md) - View a project
+- [`gh release`](./commands/release/index.md) - Manage releases
+- [`gh release create`](./commands/release/create.md) - Create a new GitHub Release for a repository.
+- [`gh release delete`](./commands/release/delete.md) - Delete a release
+- [`gh release delete-asset`](./commands/release/delete-asset.md) - Delete an asset from a release
+- [`gh release download`](./commands/release/download.md) - Download assets from a GitHub release.
+- [`gh release edit`](./commands/release/edit.md) - Edit a release
+- [`gh release list`](./commands/release/list.md) - List releases in a repository
+- [`gh release upload`](./commands/release/upload.md) - Upload asset files to a GitHub Release.
+- [`gh release verify`](./commands/release/verify.md) - Verify that a GitHub Release is accompanied by a valid cryptographically signed attestation.
+- [`gh release verify-asset`](./commands/release/verify-asset.md) - Verify that a given asset file originated from a specific GitHub Release using cryptographically signed attestations.
+- [`gh release view`](./commands/release/view.md) - View information about a GitHub Release.
+- [`gh repo`](./commands/repo/index.md) - Work with GitHub repositories.
+- [`gh repo archive`](./commands/repo/archive.md) - Archive a GitHub repository.
+- [`gh repo autolink`](./commands/repo/autolink.md) - Autolinks link issues, pull requests, commit messages, and release descriptions to external third-party services.
+- [`gh repo autolink create`](./commands/repo/autolink-create.md) - Create a new autolink reference for a repository.
+- [`gh repo autolink delete`](./commands/repo/autolink-delete.md) - Delete an autolink reference for a repository.
+- [`gh repo autolink list`](./commands/repo/autolink-list.md) - Gets all autolink references that are configured for a repository.
+- [`gh repo autolink view`](./commands/repo/autolink-view.md) - View an autolink reference for a repository.
+- [`gh repo clone`](./commands/repo/clone.md) - Clone a GitHub repository locally. Pass additional `git clone` flags by listing
+- [`gh repo create`](./commands/repo/create.md) - Create a new GitHub repository.
+- [`gh repo delete`](./commands/repo/delete.md) - Delete a GitHub repository.
+- [`gh repo deploy-key`](./commands/repo/deploy-key.md) - Manage deploy keys in a repository
+- [`gh repo deploy-key add`](./commands/repo/deploy-key-add.md) - Add a deploy key to a GitHub repository.
+- [`gh repo deploy-key delete`](./commands/repo/deploy-key-delete.md) - Delete a deploy key from a GitHub repository
+- [`gh repo deploy-key list`](./commands/repo/deploy-key-list.md) - List deploy keys in a GitHub repository
+- [`gh repo edit`](./commands/repo/edit.md) - Edit repository settings.
+- [`gh repo fork`](./commands/repo/fork.md) - Create a fork of a repository.
+- [`gh repo gitignore`](./commands/repo/gitignore.md) - List and view available repository gitignore templates
+- [`gh repo gitignore list`](./commands/repo/gitignore-list.md) - List available repository gitignore templates
+- [`gh repo gitignore view`](./commands/repo/gitignore-view.md) - View an available repository `.gitignore` template.
+- [`gh repo license`](./commands/repo/license.md) - Explore repository licenses
+- [`gh repo license list`](./commands/repo/license-list.md) - List common repository licenses.
+- [`gh repo license view`](./commands/repo/license-view.md) - View a specific repository license by license key or SPDX ID.
+- [`gh repo list`](./commands/repo/list.md) - List repositories owned by a user or organization.
+- [`gh repo read-dir`](./commands/repo/read-dir.md) - List the contents of a directory in a GitHub repository without cloning it.
+- [`gh repo read-file`](./commands/repo/read-file.md) - Read the contents of a file in a GitHub repository without cloning it.
+- [`gh repo rename`](./commands/repo/rename.md) - Rename a GitHub repository.
+- [`gh repo set-default`](./commands/repo/set-default.md) - This command sets the default remote repository to use when querying the
+- [`gh repo sync`](./commands/repo/sync.md) - Sync destination repository from source repository. Syncing uses the default branch
+- [`gh repo unarchive`](./commands/repo/unarchive.md) - Unarchive a GitHub repository.
+- [`gh repo view`](./commands/repo/view.md) - Display the description and the README of a GitHub repository.
+- [`gh ruleset`](./commands/ruleset/index.md) - Repository rulesets are a way to define a set of rules that apply to a repository.
+- [`gh ruleset check`](./commands/ruleset/check.md) - View information about GitHub rules that apply to a given branch.
+- [`gh ruleset list`](./commands/ruleset/list.md) - List GitHub rulesets for a repository or organization.
+- [`gh ruleset view`](./commands/ruleset/view.md) - View information about a GitHub ruleset.
+- [`gh run`](./commands/run/index.md) - List, view, and watch recent workflow runs from GitHub Actions.
+- [`gh run cancel`](./commands/run/cancel.md) - Cancel a workflow run
+- [`gh run delete`](./commands/run/delete.md) - Delete a workflow run
+- [`gh run download`](./commands/run/download.md) - Download artifacts generated by a GitHub Actions workflow run.
+- [`gh run list`](./commands/run/list.md) - List recent workflow runs.
+- [`gh run rerun`](./commands/run/rerun.md) - Rerun an entire run, only failed jobs, or a specific job from a run.
+- [`gh run view`](./commands/run/view.md) - View a summary of a workflow run.
+- [`gh run watch`](./commands/run/watch.md) - Watch a run until it completes, showing its progress.
+- [`gh search`](./commands/search/index.md) - Search across all of GitHub.
+- [`gh search code`](./commands/search/code.md) - Search within code in GitHub repositories.
+- [`gh search commits`](./commands/search/commits.md) - Search for commits on GitHub.
+- [`gh search issues`](./commands/search/issues.md) - Search for issues on GitHub.
+- [`gh search prs`](./commands/search/prs.md) - Search for pull requests on GitHub.
+- [`gh search repos`](./commands/search/repos.md) - Search for repositories on GitHub.
+- [`gh secret`](./commands/secret/index.md) - Secrets can be set at the repository, or organization level for use in
+- [`gh secret delete`](./commands/secret/delete.md) - Delete a secret on one of the following levels:
+- [`gh secret list`](./commands/secret/list.md) - List secrets on one of the following levels:
+- [`gh secret set`](./commands/secret/set.md) - Set a value for a secret on one of the following levels:
+- [`gh skill`](./commands/skill/index.md) - Install and manage agent skills from GitHub repositories.
+- [`gh skill install`](./commands/skill/install.md) - Install agent skills from a GitHub repository or local directory into
+- [`gh skill list`](./commands/skill/list.md) - List installed agent skills across known agent host directories.
+- [`gh skill preview`](./commands/skill/preview.md) - Render a skill's `SKILL.md` content in the terminal. This fetches the
+- [`gh skill publish`](./commands/skill/publish.md) - Validate a local repository's skills against the Agent Skills specification
+- [`gh skill search`](./commands/skill/search.md) - Search across all public GitHub repositories for skills matching a keyword.
+- [`gh skill update`](./commands/skill/update.md) - Checks installed skills for available updates by comparing the local
+- [`gh ssh-key`](./commands/ssh-key/index.md) - Manage SSH keys registered with your GitHub account.
+- [`gh ssh-key add`](./commands/ssh-key/add.md) - Add an SSH key to your GitHub account
+- [`gh ssh-key delete`](./commands/ssh-key/delete.md) - Delete an SSH key from your GitHub account
+- [`gh ssh-key list`](./commands/ssh-key/list.md) - Lists SSH keys in your GitHub account
+- [`gh status`](./commands/status.md) - The status command prints information about your work on GitHub across all the repositories you're subscribed to, including:
+- [`gh variable`](./commands/variable/index.md) - Variables can be set at the repository, environment or organization level for use in
+- [`gh variable delete`](./commands/variable/delete.md) - Delete a variable on one of the following levels:
+- [`gh variable get`](./commands/variable/get.md) - Get a variable on one of the following levels:
+- [`gh variable list`](./commands/variable/list.md) - List variables on one of the following levels:
+- [`gh variable set`](./commands/variable/set.md) - Set a value for a variable on one of the following levels:
+- [`gh workflow`](./commands/workflow/index.md) - List, view, and run workflows in GitHub Actions.
+- [`gh workflow disable`](./commands/workflow/disable.md) - Disable a workflow, preventing it from running or showing up when listing workflows.
+- [`gh workflow enable`](./commands/workflow/enable.md) - Enable a workflow, allowing it to be run and show up when listing workflows.
+- [`gh workflow list`](./commands/workflow/list.md) - List workflow files, hiding disabled workflows by default.
+- [`gh workflow run`](./commands/workflow/run.md) - Create a `workflow_dispatch` event for a given workflow.
+- [`gh workflow view`](./commands/workflow/view.md) - View the summary of a workflow
